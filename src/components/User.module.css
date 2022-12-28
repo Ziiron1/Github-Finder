@@ -75,3 +75,7 @@
 .profilesvg {
     fill: rgb(235, 235, 235);
 }
+
+.links:hover {
+    cursor: pointer;
+}

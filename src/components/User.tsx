@@ -22,6 +22,7 @@ const User = ({
     bio,
     blog,
     company,
+    site_admin,
 }: UserProps) => {
     return <div className={classes.user}>
         <img src={avatar_url} alt={login} />
@@ -32,6 +33,10 @@ const User = ({
                 <MdLocationPin />
                 <span>{location}</span>
             </p>
+        )}
+
+        {site_admin && (
+            <p>Admin: {site_admin}</p>
         )}
 
         {bio && (

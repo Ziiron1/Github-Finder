@@ -11,4 +11,5 @@ export type UserProps = {
     bio: string;
     blog: string;
     company: string;
+    site_admin: string;
 }
