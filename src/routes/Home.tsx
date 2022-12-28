@@ -28,7 +28,7 @@ const Home = () => {
         }
 
 
-        const { avatar_url, login, name, location, bio, followers, following, email, html_url, public_repos, blog, company } = data
+        const { avatar_url, login, name, location, bio, followers, following, email, html_url, public_repos, blog, company, site_admin } = data
 
         const userData: UserProps = {
             avatar_url,
@@ -43,6 +43,7 @@ const Home = () => {
             bio,
             blog,
             company,
+            site_admin
         }
 
         setUser(userData)
